@@ -1,0 +1,120 @@
+/* 나무위키 / 위키피디아 스타일 인포박스 (우측 플로팅 정보상자) */
+.wiki-infobox {
+  float: right;
+  width: 320px;
+  margin: 0 0 28px 24px;
+  background-color: var(--background-secondary);
+  border: 2px solid var(--interactive-accent);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-size: 0.88rem;
+  overflow: hidden;
+  clear: right;
+}
+
+.wiki-infobox-title {
+  background-color: var(--interactive-accent);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-align: center;
+  padding: 12px 16px;
+  letter-spacing: -0.02em;
+}
+
+.wiki-infobox-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.wiki-infobox-table th {
+  width: 35%;
+  background-color: var(--background-secondary-alt);
+  color: var(--text-muted);
+  font-weight: 600;
+  text-align: left;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  border-top: none;
+  font-size: 0.82rem;
+}
+
+.wiki-infobox-table td {
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  border-top: none;
+  color: var(--text-normal);
+}
+
+.wiki-infobox-footer {
+  padding: 10px 16px;
+  text-align: center;
+  background-color: var(--background-primary);
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* 둘러보기 틀 (나무위키 네비박스) */
+.wiki-navbox {
+  margin: 24px 0 32px 0;
+  border: 1px solid var(--interactive-accent);
+  border-radius: 6px;
+  background-color: var(--background-secondary);
+  overflow: hidden;
+}
+
+.wiki-navbox-header {
+  background-color: var(--interactive-accent);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 10px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wiki-navbox-content {
+  padding: 14px 18px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.wiki-navbox-group {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+
+.wiki-navbox-group:last-child {
+  margin-bottom: 0;
+}
+
+.wiki-navbox-label {
+  font-weight: 600;
+  min-width: 90px;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+/* 본문 표 위키 스타일 개선 */
+.markdown-rendered table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 24px 0;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.markdown-rendered th {
+  background-color: var(--background-secondary-alt);
+  border: 1px solid var(--background-modifier-border);
+  padding: 12px 16px;
+  font-weight: 600;
+}
+
+.markdown-rendered td {
+  border: 1px solid var(--background-modifier-border);
+  padding: 10px 16px;
+}

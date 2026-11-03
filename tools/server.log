@@ -1,0 +1,35 @@
+::1 - - [03/Nov/2026 14:47:04] "HEAD / HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:10] "GET / HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /.obsidian/snippets/wiki-style.css HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /README.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /_sidebar.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /index.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /log.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /wiki/concepts/switch-aot-recompilation.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /wiki/concepts/llm-wiki-architecture.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /wiki/tools/aside-discord-bot.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /wiki/tools/rea-mcp-ghidra.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /wiki/troubleshooting/launchd-external-volume-exit-78.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:11] "GET /wiki/troubleshooting/ue4-romfs-nifm-bottleneck.md HTTP/1.1" 200 -
+::1 - - [03/Nov/2026 14:47:12] code 404, message File not found
+::1 - - [03/Nov/2026 14:47:12] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:47:32] code 404, message File not found
+::1 - - [03/Nov/2026 14:47:32] "GET /wiki/tools/_sidebar.md HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:47:32] code 404, message File not found
+::1 - - [03/Nov/2026 14:47:32] "GET /wiki/_sidebar.md HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:47:33] code 404, message File not found
+::1 - - [03/Nov/2026 14:47:33] "GET /wiki/tools/_sidebar.md HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:47:33] code 404, message File not found
+::1 - - [03/Nov/2026 14:47:33] "GET /wiki/_sidebar.md HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:47:35] code 404, message File not found
+::1 - - [03/Nov/2026 14:47:35] "GET /wiki/troubleshooting/_sidebar.md HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:47:35] code 404, message File not found
+::1 - - [03/Nov/2026 14:47:35] "GET /wiki/_sidebar.md HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:48:55] "GET / HTTP/1.1" 304 -
+::1 - - [03/Nov/2026 14:48:55] "GET /.obsidian/snippets/wiki-style.css HTTP/1.1" 304 -
+::1 - - [03/Nov/2026 14:48:55] code 404, message File not found
+::1 - - [03/Nov/2026 14:48:55] "GET /wiki/troubleshooting/_sidebar.md HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:48:55] code 404, message File not found
+::1 - - [03/Nov/2026 14:48:55] "GET /wiki/_sidebar.md HTTP/1.1" 404 -
+::1 - - [03/Nov/2026 14:48:55] "GET /_sidebar.md HTTP/1.1" 304 -
+::1 - - [03/Nov/2026 14:48:56] "GET /README.md HTTP/1.1" 304 -
